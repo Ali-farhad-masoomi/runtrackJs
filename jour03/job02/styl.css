@@ -1,0 +1,12 @@
+#rainbow {
+    display: flex;
+}
+
+#rainbow img {
+    width: 100px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+}
+
+#message {
+    color: green;
+}

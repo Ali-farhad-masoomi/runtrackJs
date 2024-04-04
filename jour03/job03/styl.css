@@ -1,0 +1,21 @@
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* 3 colonnes */
+    grid-template-rows: repeat(3, 100px); /* 3 lignes */
+    gap: 5px; /* Espacement entre les cellules */
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#message {
+    color: green;
+}
+
+#resetButton {
+    display: block;
+}
